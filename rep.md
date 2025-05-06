@@ -54,7 +54,7 @@ Key components:
 
 The kernel module (int_stack.c) implements the character device driver:
 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
 
 1. **Module Initialization (`int_stack_init`):**
    - Dynamic device number allocation
@@ -179,15 +179,15 @@ Executed test cases demonstrating:
 
 **Check items are saved when the stack size increases**
 
-![alt text](image-2.png)
+![alt text](assets/image-2.png)
 
 **Check for deleting items when reducing the stack size**
 
-![alt text](image-3.png)
+![alt text](assets/image-3.png)
 
 **Check correctness of operations after resizing**
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
 
 ## Appendix
 
